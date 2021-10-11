@@ -54,3 +54,18 @@ Copied file with mockup-data:
 
 ## Create an SAP Fiori Elements-Based UI
 Source: [Create an SAP Fiori Elements-Based UI](https://developers.sap.com/tutorials/btp-app-create-ui-fiori-elements.html)
+
+### Generate the UI with an SAP Fiori elements template
+Start the `Fiori: Open Application Generator`, choose following options:
+- Application Type: `SAP Fiori elements`
+- Floorplan: `List Report Object Page`
+- Date source: `Use a local CAP Project`
+- CAP Project folder path: `../cpapp`
+- OData service: `RiskService`
+- Main entity: `Risks`
+- Project attributes:
+    - Module name: `risks`
+    - Application title: `Risks`
+    - Application namespace: `ns`
+    - Description: `Risks`
+
