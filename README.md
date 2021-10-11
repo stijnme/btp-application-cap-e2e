@@ -23,3 +23,34 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
+
+# Tutorials
+## Create a CAP-Based Application
+Source: [Create a CAP-Based Application](https://developers.sap.com/tutorials/btp-app-create-cap-application.html)
+
+Init cds app:
+
+`cds init`
+
+Install node modules:
+
+`npm i` 
+
+Start CAP server:
+
+`cds watch` 
+
+### Create OData Service
+Copied schema and service file:
+
+```
+cp ../tutorial/templates/cap/create-service/db/schema.cds db/
+cp ../tutorial/templates/cap/create-service/srv/risk-service.cds srv/
+```
+
+Copied file with mockup-data:
+
+`cp -R ../tutorial/templates/cap/create-service/db/data/ db/`
+
+## Create an SAP Fiori Elements-Based UI
+Source: [Create an SAP Fiori Elements-Based UI](https://developers.sap.com/tutorials/btp-app-create-ui-fiori-elements.html)
