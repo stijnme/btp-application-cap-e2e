@@ -80,3 +80,21 @@ Depending on the value of the property `impact`, the custom code changes the val
 
 `cp ../tutorial/templates/cap/business-logic/srv/risk-service.js srv/`
 
+## Create a UI Using Freestyle SAPUI5
+Source: [Create a UI Using Freestyle SAPUI5](https://developers.sap.com/tutorials/btp-app-create-ui-freestyle-sapui5.html)
+
+### SAP Fiori elements application vs. freestyle UI5 application
+
+
+### Creating the application
+//TODO::
+
+Start the `Fiori: Open Application Generator`, choose following options:
+- Application Type: `SAPUI5 freestyle`
+- Floorplan: `SAP Fiori Worklist Application`
+- Date source: `Use a local CAP Project`
+- CAP Project folder path: `../cpapp`
+- OData service: `RiskService`
+- Object collection: `mitigations`
+- Object collection key: `ID`
+- Object ID: `ID`
