@@ -71,3 +71,12 @@ Start the `Fiori: Open Application Generator`, choose following options:
 
 ### Modify the UI with OData annotations
 `cp ../tutorial/templates/cap/fiori-elements-app/srv/risks-service-ui.cds srv/`
+
+
+## Add Business Logic to Your Application
+Source: [Add Business Logic to Your Application](https://developers.sap.com/tutorials/btp-app-cap-business-logic.html)
+### Add custom code
+Depending on the value of the property `impact`, the custom code changes the value of the property `criticality`.
+
+`cp ../tutorial/templates/cap/business-logic/srv/risk-service.js srv/`
+
