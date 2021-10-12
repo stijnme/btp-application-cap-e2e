@@ -69,3 +69,5 @@ Start the `Fiori: Open Application Generator`, choose following options:
     - Application namespace: `ns`
     - Description: `Risks`
 
+### Modify the UI with OData annotations
+`cp ../tutorial/templates/cap/fiori-elements-app/srv/risks-service-ui.cds srv/`
