@@ -113,3 +113,23 @@ Started the app (from the root folder) with:
 
 Updated views and bindings for Worklist and Object views.
 
+### (Optional) SAPUI5 serve
+Not really needed, but `UI5` tooling has a few more features:
+- You can run multiple servers at a time (cds watch can only run once).
+- A live reload (that is, automatic browser refresh on saving) of all the UI changes.
+- Loading local SAPUI5 resources from dependencies.
+- Serve middleware.
+    - Proxy for backend service
+    - Cache behavior for SAPUI5 resources
+    - Theme Build on-the-fly for library development
+    - Transpiling middleware
+
+Added `ui5-middleware-livereload` in `package.json` and `ui5.yaml` of the `mitigations` app.
+Ran `npm i` in the `mitigations` app folder.
+
+Started in seperate terminals:
+- `cds watch` in the root folder
+- `ui5 serve` in the `mitigations` folder
+
+TODO: didn`t got this part to work. Also code didn't match the example.
+
