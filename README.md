@@ -87,14 +87,22 @@ Source: [Create a UI Using Freestyle SAPUI5](https://developers.sap.com/tutorial
 
 
 ### Creating the application
-//TODO::
-
 Start the `Fiori: Open Application Generator`, choose following options:
 - Application Type: `SAPUI5 freestyle`
 - Floorplan: `SAP Fiori Worklist Application`
 - Date source: `Use a local CAP Project`
 - CAP Project folder path: `../cpapp`
 - OData service: `RiskService`
-- Object collection: `mitigations`
-- Object collection key: `ID`
-- Object ID: `ID`
+
+Entity selection:
+    - Object collection: `mitigations`
+    - Object collection key: `ID`
+    - Object ID: `ID`
+    - Object number: `None`
+    - Object unit of measure: `None`
+
+- Project attributes:
+    - Module name: `mitigations`
+    - Application title: `Mitigations`
+    - Application namespace: `ns`
+    - Description: `Mitigations`
