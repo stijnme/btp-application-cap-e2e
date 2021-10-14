@@ -106,3 +106,10 @@ Entity selection:
     - Application title: `Mitigations`
     - Application namespace: `ns`
     - Description: `Mitigations`
+
+### Starting the application
+Started the app (from the root folder) with:
+`cds watch`
+
+Updated views and bindings for Worklist and Object views.
+
