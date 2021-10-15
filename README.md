@@ -138,6 +138,7 @@ Started in seperate terminals:
 
 
 ## Add More Than One Application to the Launch Page
+Source: (Add More Than One Application to the Launch Page)[https://developers.sap.com/tutorials/btp-app-launchpage.html]
 In the `app/risks/webapp` folder:
 `git mv index.html ../../`
 
@@ -152,6 +153,7 @@ Test:
 (http://localhost:4004/launchpage.html#Shell-home)[http://localhost:4004/launchpage.html#Shell-home]
 
 ## Implement Roles and Authorization Checks In CAP
+Source: (Implement Roles and Authorization Checks In CAP)[https://developers.sap.com/tutorials/btp-app-cap-roles.html]
 ### Enable authentication support
 Run in the project root folder:
 `npm install passport`
@@ -166,3 +168,15 @@ Added role restrictions on `Risks` and `Mitigations` entities in `risk-service.c
 Restarted: `cds watch`
 
 It is now possible to login with an account specified in `.cdsrc.json`.
+
+## Deploy Your CAP Application on SAP BTP Cloud Foundry Environment
+### Prepare for SAP BTP Development
+Source: (Prepare for SAP BTP Development)[https://developers.sap.com/tutorials/btp-app-prepare-btp.html]
+
+In this exercise, we used the SAP BTP trial environment.
+The SAP tutorial gives a good quick overview on what is needed to setup a live account on SAP BTP.
+
+Lookup the `Cloud Foundry Environment` settings in the subaccount.
+
+ Log on from the command line:
+ `cf api <API Endpoint of your landscape>`
