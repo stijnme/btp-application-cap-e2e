@@ -159,3 +159,10 @@ Run in the project root folder:
 ### Adding CAP role restrictions to entities
 Added role restrictions on `Risks` and `Mitigations` entities in `risk-service.cds`.
 
+
+### Add Users for local testing
+`cp ../tutorial/templates/cap/roles/.cdsrc.json .`
+
+Restarted: `cds watch`
+
+It is now possible to login with an account specified in `.cdsrc.json`.
