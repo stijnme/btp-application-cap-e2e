@@ -156,3 +156,6 @@ Test:
 Run in the project root folder:
 `npm install passport`
 
+### Adding CAP role restrictions to entities
+Added role restrictions on `Risks` and `Mitigations` entities in `risk-service.cds`.
+
