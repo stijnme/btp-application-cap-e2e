@@ -19,6 +19,11 @@ File or Folder | Purpose
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
 - Start adding content, for example, a [db/schema.cds](db/schema.cds).
 
+*Update*: To start the `mitigation` app, start in a second terminal:
+```
+cd app/mitigations/
+ui5 serve
+```
 
 ## Learn More
 
@@ -132,3 +137,16 @@ Started in seperate terminals:
 - `ui5 serve` in the `mitigations` folder
 
 
+## Add More Than One Application to the Launch Page
+In the `app/risks/webapp` folder:
+`git mv index.html ../../`
+
+To move the `index.html` file up into the `app` folder.
+Adjusted the application script in `index.html`.
+
+Renamed:
+`cd ../..`
+`git mv index.html launchpad.html`
+
+Test:
+(http://localhost:4004/launchpage.html#Shell-home)[http://localhost:4004/launchpage.html#Shell-home]
