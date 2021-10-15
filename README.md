@@ -131,5 +131,4 @@ Started in seperate terminals:
 - `cds watch` in the root folder
 - `ui5 serve` in the `mitigations` folder
 
-TODO: didn`t got this part to work. Also code didn't match the example.
 
