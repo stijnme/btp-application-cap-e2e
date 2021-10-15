@@ -150,3 +150,9 @@ Renamed:
 
 Test:
 (http://localhost:4004/launchpage.html#Shell-home)[http://localhost:4004/launchpage.html#Shell-home]
+
+## Implement Roles and Authorization Checks In CAP
+### Enable authentication support
+Run in the project root folder:
+`npm install passport`
+
