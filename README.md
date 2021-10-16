@@ -225,4 +225,7 @@ Generate `xs-security.json` based on our service definitions in `srv`:
 cds compile srv --to xsuaa >xs-security.json
 ```
 
+## Deploy Your Multi-Target Application (MTA)
+Source: [Deploy Your Multi-Target Application (MTA)](https://developers.sap.com/tutorials/btp-app-cap-mta-deployment.html)
+### 
 
