@@ -193,3 +193,13 @@ Surfed to the given URL and retrieved authentication code. After pasting this co
 Authenticating...
 OK
 ```
+
+## Set Up the SAP HANA Cloud Service
+Source: [Set Up the SAP HANA Cloud Service](https://developers.sap.com/tutorials/btp-app-hana-cloud-setup.html)
+### Add SAP HANA client and configuration to your project
+```
+cds add hana
+```
+
+### Prepare using SAP HANA Cloud service
+
