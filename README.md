@@ -180,3 +180,16 @@ Lookup the `Cloud Foundry Environment` settings in the subaccount.
 
  Log on from the command line:
  `cf api <API Endpoint of your landscape>`
+
+Remark: couldn`t find the correct password. Fixed with login in via sso:
+```
+cf login  --sso
+API endpoint: https://api.cf.us10.hana.ondemand.com/
+
+Temporary Authentication Code ( Get one at https://login.cf.us10.hana.ondemand.com/passcode ):
+```
+Surfed to the given URL and retrieved authentication code. After pasting this code in the terminal:
+```
+Authenticating...
+OK
+```
