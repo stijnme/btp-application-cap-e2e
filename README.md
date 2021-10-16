@@ -233,7 +233,7 @@ cf api https://api.cf.us10.hana.ondemand.com/
 cf login  --sso
 ```
 Multi apps plugin alread installed:
-````
+```
 $cf plugins
 Listing installed plugins...
 
@@ -253,4 +253,12 @@ Use 'cf repo-plugins' to list plugins in registered repos available to install.
 Install *not* needed:
 ```
 cf install-plugin multiapps
+```
+
+### Declare required Node.js version
+Added in `package.json` to make sure version `14` is usde:
+```
+  "engines": {
+    "node": ">=14"
+  },
 ```
