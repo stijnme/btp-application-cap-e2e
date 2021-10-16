@@ -274,3 +274,21 @@ Added command to the `mta.yalm` file (section: `build-parameters`):
 ```
       - npx rimraf gen/db/src/gen/data
 ```
+
+### Add Authorization and Trust Management service (XSUAA)
+Add the Authorization and Trust Management service to `mta.yaml`:
+```
+     path: ./xs-security.json
+```
+
+```
+       role-collections:
+         - name: 'RiskManager-${space}'
+           description: Manage Risks
+           role-template-references:
+             - $XSAPPNAME.RiskManager
+         - name: 'RiskViewer-${space}'
+           description: View Risks
+           role-template-references:
+             - $XSAPPNAME.RiskViewer
+```
