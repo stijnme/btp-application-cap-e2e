@@ -227,5 +227,30 @@ cds compile srv --to xsuaa >xs-security.json
 
 ## Deploy Your Multi-Target Application (MTA)
 Source: [Deploy Your Multi-Target Application (MTA)](https://developers.sap.com/tutorials/btp-app-cap-mta-deployment.html)
-### 
+### Install the MultiApps Cloud Foundry CLI plugin
+```
+cf api https://api.cf.us10.hana.ondemand.com/
+cf login  --sso
+```
+Multi apps plugin alread installed:
+````
+$cf plugins
+Listing installed plugins...
 
+plugin      version   command name                 command help
+multiapps   2.2.1     bg-deploy                    Deploy a multi-target app using blue-green deployment
+multiapps   2.2.1     deploy                       Deploy a new multi-target app or sync changes to an existing one
+multiapps   2.2.1     download-mta-op-logs, dmol   Download logs of multi-target app operation
+multiapps   2.2.1     mta                          Display health and status for a multi-target app
+multiapps   2.2.1     mta-ops                      List multi-target app operations
+multiapps   2.2.1     mtas                         List all multi-target apps
+multiapps   2.2.1     purge-mta-config             Purge no longer valid configuration entries
+multiapps   2.2.1     undeploy                     Undeploy a multi-target app
+
+Use 'cf repo-plugins' to list plugins in registered repos available to install.
+```
+
+Install *not* needed:
+```
+cf install-plugin multiapps
+```
