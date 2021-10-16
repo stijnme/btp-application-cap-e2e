@@ -262,3 +262,9 @@ Added in `package.json` to make sure version `14` is usde:
     "node": ">=14"
   },
 ```
+
+### Generate MTA deployment descriptor (mta.yaml)
+Generate `mta.yaml` file based on `package.json`:
+```
+cds add mta
+```
