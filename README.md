@@ -210,5 +210,19 @@ Remark:
 Your SAP HANA Cloud service instance will be automatically stopped overnight, according to the server region time zone. That means you need to restart your instance every day before you start working with it.
 ```
 
+## Prepare User Authentication and Authorization (XSUAA) Setup
+Source: [Prepare User Authentication and Authorization (XSUAA) Setup](https://developers.sap.com/tutorials/btp-app-prepare-xsuaa.html)
+### Enable authentication support
+```
+npm i --save  @sap/xssec  @sap/xsenv
+```
+### Add UAA service
+Updated `package.json` to inform `cds` about the UAA service.
+
+### XSUAA security configuration
+Generate `xs-security.json` based on our service definitions in `srv`:
+```
+cds compile srv --to xsuaa >xs-security.json
+```
 
 
