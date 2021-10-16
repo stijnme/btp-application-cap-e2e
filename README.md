@@ -292,3 +292,24 @@ Add the Authorization and Trust Management service to `mta.yaml`:
            role-template-references:
              - $XSAPPNAME.RiskViewer
 ```
+
+### Build, deploy, and test mtar file
+Build `mtar` file:
+```
+mbt build -t ./
+```
+
+Deploy:
+```
+cf deploy cpapp_1.0.0.mtar
+```
+
+Verify the created services:
+```
+cf services
+```
+
+Verify the runnings apps:
+```
+cf apps
+```
