@@ -201,5 +201,14 @@ Source: [Set Up the SAP HANA Cloud Service](https://developers.sap.com/tutorials
 cds add hana
 ```
 
-### Prepare using SAP HANA Cloud service
+### Create an SAP HANA Cloud service instance
+Created SAP HANA database via the SAP BTP Cockpit.
+Instance name: `cpapp`
+
+Remark:
+```
+Your SAP HANA Cloud service instance will be automatically stopped overnight, according to the server region time zone. That means you need to restart your instance every day before you start working with it.
+```
+
+
 
