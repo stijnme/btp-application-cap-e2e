@@ -268,3 +268,9 @@ Generate `mta.yaml` file based on `package.json`:
 ```
 cds add mta
 ```
+
+### Exclude CSV files from deployment
+Added command to the `mta.yalm` file (section: `build-parameters`):
+```
+      - npx rimraf gen/db/src/gen/data
+```
