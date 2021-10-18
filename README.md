@@ -340,3 +340,13 @@ Added `cpapp-destinations` config to `mta.yaml`, with the configuration for foll
 - `cpapp-app-srv` = destination to the CAP service
 - `cpapp-html5-repo-host` = SAP HTML5 Application Repository service
 - `cpapp-uaa` = destination to your XSUAA service instance
+
+
+### Install required UI tools and MTA
+Installed extra tools:
+```
+npm install -g @sap/ux-ui5-tooling
+npm install -g @sap/generator-fiori
+npm i -g mta
+```
+
