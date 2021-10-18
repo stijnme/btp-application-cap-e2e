@@ -20,6 +20,18 @@
 					"localUri": "localService/metadata.xml"
 				}
 			}
+		},
+		"crossNavigation": {
+		  "inbounds": {
+			"Mitigations-display": {
+			  "signature": {
+				"parameters": {},
+				"additionalParameters": "allowed"
+			  },
+			  "semanticObject": "Mitigations",
+			  "action": "display"
+			}
+		  }
 		}
 	},
 

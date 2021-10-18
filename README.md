@@ -319,3 +319,8 @@ Source: [Add the SAP Launchpad Service](https://developers.sap.com/tutorials/btp
 ### Add navigation targets
 
 ### Add navigation target for Risks UI
+Added config to `app/risks/webapp/manifest.json`.
+
+
+### Add navigation target for Mitigations UI
+Added config to `app/mitigations/webapp/manifest.json`.
