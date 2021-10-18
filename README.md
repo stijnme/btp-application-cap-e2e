@@ -327,3 +327,6 @@ Added config to `app/mitigations/webapp/manifest.json`.
 
 ### Add SAP Cloud service
 Config added to the manifest of both apps.
+
+### Add the SAP Destination service
+Added `cpapp-destination` config to `mta.yaml`
