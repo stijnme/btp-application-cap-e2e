@@ -362,3 +362,19 @@ Removed from `app/risks/package.json`:
 cd app/risks/
 fiori add deploy-config cf
 ```
+Destination name: `cpapp-app-srv`
+
+### Fix SAPUI5 Tools Version for Risks app
+Verifed, but already done (automatically?) in the previous step:
+```
+    "devDependencies": {
+        "@ui5/cli": "^2.11.1",
+```
+
+### Add SAPUI5 freestyle Mitigations application
+Repeat for the mitigations app:
+```
+cd ../../app/mitigations
+fiori add deploy-config cf
+```
+Destination name: `cpapp-app-srv`
