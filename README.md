@@ -313,3 +313,9 @@ Verify the runnings apps:
 ```
 cf apps
 ```
+
+## Add the SAP Launchpad Service
+Source: [Add the SAP Launchpad Service](https://developers.sap.com/tutorials/btp-app-launchpad-service.html)
+### Add navigation targets
+
+### Add navigation target for Risks UI
