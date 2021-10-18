@@ -324,3 +324,6 @@ Added config to `app/risks/webapp/manifest.json`.
 
 ### Add navigation target for Mitigations UI
 Added config to `app/mitigations/webapp/manifest.json`.
+
+### Add SAP Cloud service
+Config added to the manifest of both apps.
