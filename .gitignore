@@ -27,3 +27,8 @@ mta_archives/
 # IDEs
 # .vscode
 # .idea
+
+# Fiori build files
+dist/
+resources/
+app/*/package-lock.json

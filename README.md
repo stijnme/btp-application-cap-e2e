@@ -381,3 +381,12 @@ Destination name: `cpapp-app-srv`
 
 ### Check the results in mta.yaml
 Verified `mta.yaml` config file.
+
+### Add UI build files to .gitignore
+Added:
+```
++# Fiori build files
++dist/
++resources/
++app/*/package-lock.json
+```
