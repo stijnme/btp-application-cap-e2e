@@ -378,3 +378,6 @@ cd ../../app/mitigations
 fiori add deploy-config cf
 ```
 Destination name: `cpapp-app-srv`
+
+### Check the results in mta.yaml
+Verified `mta.yaml` config file.
