@@ -330,3 +330,7 @@ Config added to the manifest of both apps.
 
 ### Add the SAP Destination service
 Added `cpapp-destination` config to `mta.yaml`
+
+### Add SAP HTML5 Application Repository service
+Added `cpapp-html5-repo-host`config to  `mta.yaml`.
+This to serve the static UI files from the `SAP HTML5 Application Repository service`.
