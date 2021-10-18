@@ -329,8 +329,14 @@ Added config to `app/mitigations/webapp/manifest.json`.
 Config added to the manifest of both apps.
 
 ### Add the SAP Destination service
-Added `cpapp-destination` config to `mta.yaml`
+Added `cpapp-destination` config to `mta.yaml`.
 
 ### Add SAP HTML5 Application Repository service
-Added `cpapp-html5-repo-host`config to  `mta.yaml`.
+Added `cpapp-html5-repo-host`config to `mta.yaml`.
 This to serve the static UI files from the `SAP HTML5 Application Repository service`.
+
+### Add destinations
+Added `cpapp-destinations` config to `mta.yaml`, with the configuration for following services:
+- `cpapp-app-srv` = destination to the CAP service
+- `cpapp-html5-repo-host` = SAP HTML5 Application Repository service
+- `cpapp-uaa` = destination to your XSUAA service instance
