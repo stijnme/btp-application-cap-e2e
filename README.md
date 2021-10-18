@@ -350,3 +350,9 @@ npm install -g @sap/generator-fiori
 npm i -g mta
 ```
 
+### Remove broken dependency from Risks application
+Removed from `app/risks/package.json`:
+```
+      "@sap/ux-ui5-tooling": "1",
+      "@sap/ux-specification": "latest",
+```
