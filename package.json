@@ -22,7 +22,8 @@
     },
     "scripts": {
         "start": "cds run",
-        "watch-risks": "cds watch --open risks/webapp/index.html#fe-lrop-v4"
+        "watch-risks": "cds watch --open risks/webapp/index.html#fe-lrop-v4",
+        "undeploy": "cf undeploy cpapp --delete-services --delete-service-keys"
     },
     "eslintConfig": {
         "extends": "eslint:recommended",

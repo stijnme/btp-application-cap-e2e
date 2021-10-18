@@ -25,16 +25,16 @@
             "version": "1.0.0"
         },
         "crossNavigation": {
-          "inbounds": {
-            "Risks-display": {
-              "signature": {
-                "parameters": {},
-                "additionalParameters": "allowed"
-              },
-              "semanticObject": "Risks",
-              "action": "display"
+            "inbounds": {
+                "Risks-display": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Risks",
+                    "action": "display"
+                }
             }
-          }
         }
     },
     "sap.ui": {
@@ -149,7 +149,7 @@
         "archeType": "transactional"
     },
     "sap.cloud": {
-      "public": true,
-      "service": "cpapp.service"
+        "public": true,
+        "service": "cpapp.service"
     }
 }

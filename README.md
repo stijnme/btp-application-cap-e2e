@@ -356,3 +356,9 @@ Removed from `app/risks/package.json`:
       "@sap/ux-ui5-tooling": "1",
       "@sap/ux-specification": "latest",
 ```
+
+### Add SAP Fiori elements Risks application
+```
+cd app/risks/
+fiori add deploy-config cf
+```
