@@ -407,3 +407,11 @@ Create the `Launchpad Service` via the `Service Marketplace` in the SAP BTP Plat
 - Added `Mitigations` and `Risks` roles to `Everyone`
 - Created group `Risk Management` and added both apps to it.
 - Final step, created Site `Risk Management Site` in the Site Directory
+
+## Assign a Role Collection to a User
+Source: [Assign a Role Collection to a User](https://developers.sap.com/tutorials/btp-app-role-assignment.html)
+### Assign roles
+Added user (email address) to Role Collection `RiskManager-dev`.
+
+### Additional Information: Create a role collection manually
+
