@@ -396,3 +396,7 @@ Added:
 mbt build -t ./
 cf deploy cpapp_1.0.0.mtar
 ```
+
+### Subscribe to SAP Launchpad service
+Create the `Launchpad Service` via the `Service Marketplace` in the SAP BTP Platform.
+
