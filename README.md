@@ -390,3 +390,9 @@ Added:
 +resources/
 +app/*/package-lock.json
 ```
+
+### Re-build and re-deploy the .mtar file
+```
+mbt build -t ./
+cf deploy cpapp_1.0.0.mtar
+```
