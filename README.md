@@ -400,3 +400,10 @@ cf deploy cpapp_1.0.0.mtar
 ### Subscribe to SAP Launchpad service
 Create the `Launchpad Service` via the `Service Marketplace` in the SAP BTP Platform.
 
+### Create your SAP Launchpad site
+- Assigned `Launchpad_Admin` role to my user.
+- Refreshed `HTML5 Apps` content provider.
+- Added both apps to `My Content` via `Content Manager` > `Content Explorer`
+- Added `Mitigations` and `Risks` roles to `Everyone`
+- Created group `Risk Management` and added both apps to it.
+- Final step, created Site `Risk Management Site` in the Site Directory
