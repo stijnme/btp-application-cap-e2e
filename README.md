@@ -461,5 +461,10 @@ mbt build -t ./
 cf deploy cpapp_1.0.0.mtar
 ```
 
+## Undeploy Your Multi-Target Application (MTA)
+Source: [Undeploy Your Multi-Target Application (MTA)](https://developers.sap.com/tutorials/btp-app-undeploy-cap-application.html)
 
+```
+cf undeploy cpapp
+```
 
