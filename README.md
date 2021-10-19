@@ -415,3 +415,51 @@ Added user (email address) to Role Collection `RiskManager-dev`.
 
 ### Additional Information: Create a role collection manually
 
+## Enable Logging Service for Your Application
+Source: [Enable Logging Service for Your Application](https://developers.sap.com/tutorials/btp-app-logging.html)
+
+### Access logs from terminal
+List apps:
+```
+cf api https://api.cf.us10.hana.ondemand.com
+cf login --sso
+cf apps
+```
+Check recent logs:
+```
+cf logs --recent cpapp-db-deployer
+cf logs --recent cpapp-srv
+```
+Tail log:
+```
+cf logs cpapp-srv
+```
+
+### Access logs from SAP BTP cockpit
+
+### Analyze logs using Kibana dashboard
+
+
+### Enable Logging Service
+Add to `resources` in `mta.yaml`:
+```
+- name: cpapp-logs
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: application-logs
+    service-plan: lite
+```
+And bind to modules `cpapp-srv` and `cpapp-db-deployer` in `mta.yaml` by adding:
+```
+- name: cpapp-logs
+```
+
+### Test it
+Build and deploy:
+```
+mbt build -t ./
+cf deploy cpapp_1.0.0.mtar
+```
+
+
+
